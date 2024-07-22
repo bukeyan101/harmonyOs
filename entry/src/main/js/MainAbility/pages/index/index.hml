@@ -1,0 +1,9 @@
+<div class="container1">
+    <div class="container2">
+        <picker-view class="pv1" range="{{picker1range}}" selected="1" onchange="changeAction"/>
+        <text class="txt">分</text>
+        <image src="/common/hm.jpg" class="img"></image>
+        <picker-view class="pv2" range="{{picker2range}}" selected="1" onchange="changeAction2"/>
+    </div>
+    <input type="button" value="点击开始" class="btn" on:click="clickAction" />
+</div>

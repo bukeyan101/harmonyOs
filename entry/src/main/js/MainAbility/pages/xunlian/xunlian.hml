@@ -1,0 +1,8 @@
+<div class="container">
+    <text class="txt1">{{huxi}}</text>
+<!--    <text class="txt2">{{}}</text>-->
+    <text class="title" show="{{isShow}}">
+        在坚持{{seconds}}秒
+    </text>
+    <input type="button" value="点击重新开始" class="btn" on:click="clickAction" />
+</div>

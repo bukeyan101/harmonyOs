@@ -1,0 +1,41 @@
+{
+  "app": {
+    "vendor": "example",
+    "bundleName": "com.example.huxi",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "abilities": [
+      {
+        "srcPath": "MainAbility",
+        "name": ".MainAbility",
+        "srcLanguage": "js",
+        "icon": "$media:icon",
+        "description": "$string:MainAbility_desc",
+        "label": "$string:MainAbility_label",
+        "type": "page"
+      }
+    ],
+    "distro": {
+      "moduleType": "entry",
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/xunlian/xunlian"
+        ],
+        "name": ".MainAbility"
+      }
+    ]
+  }
+}

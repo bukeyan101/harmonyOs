@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txt1{
+    font-size: 30px;
+    text-align: center;
+    width: 454px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.txt2 {
+    width: 400px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    background-color: black;
+    border-color: black;
+    margin-top: 40px;
+}
+@keyframes aniname{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
